@@ -1,0 +1,19 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+494.06,653.7499999999999,8339.06,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),VPC,Network Address Translation (NAT) Gateway,0,55.35,664.20,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),VPC,Gateway Load Balancer,0,32.92,395.04,USD,,"Number of Availability Zones that Gateway Load Balancer is deployed to (2), Number of Gateway Load Balancer Endpoints (2), Total processed bytes (10 GB per month), Average number of new connections/flows (100 per minute), Average connection/flow duration ( minutes)"
+My Estimate,US East (N. Virginia),CloudFront,Amazon CloudFront,0,148.5,1782.00,USD,,"Data transfer out to internet (500 GB per month), Data transfer out to origin (300 GB per month), Number of requests (HTTPS) (100000000 per month)"
+My Estimate,US East (N. Virginia),Ec2,Amazon EC2 ,247.032,0,247.03,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Daily, (Workload days: Monday, Tuesday, Wednesday, Thursday, Friday, Baseline: 1, Peak: 2, Duration of peak: 24 Hr 00 Min)), Advance EC2 instance (t3.micro), Pricing strategy ( 3 Year  All upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (Ohio),ec2-2,Amazon EC2 ,247.032,0,247.03,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Daily, (Workload days: Monday, Tuesday, Wednesday, Thursday, Friday, Baseline: 1, Peak: 2, Duration of peak: 24 Hr 00 Min)), Advance EC2 instance (t3.micro), Pricing strategy ( 3 Year  All upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),RDS - Multi AZ so dont need to add one more db,Amazon RDS for PostgreSQL,0,416.97999999999996,5003.76,USD,,"Storage volume (General Purpose SSD (gp2)), Storage amount (40 GB), Nodes (2), Instance Type (db.m1.medium), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Cost for one month of retention (per vCPU per month) (1.5000000000), Cost for each additional month of retention (per vCPU per month) (0.0631000000), Cost for total retention (per vCPU per month) (2.19)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

@@ -1,0 +1,19 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,540.1299999999999,6481.56,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),VPC - Config,Network Address Translation (NAT) Gateway,0,100.35,1204.20,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),VPC - Config,Gateway Load Balancer,0,87.6,1051.20,USD,,"Number of Availability Zones that Gateway Load Balancer is deployed to (2), Number of Gateway Load Balancer Endpoints (2), Total processed bytes (10 GB per hour), Average number of new connections/flows (100 per second), Average connection/flow duration (100 minutes)"
+My Estimate,US East (N. Virginia),CloudFront,Amazon CloudFront,0,127.8,1533.60,USD,,"Data transfer out to internet (280 GB per month), Data transfer out to origin (200 GB per month), Number of requests (HTTPS) (100000000 per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,10.845715,130.15,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Daily, (Workload days: Monday, Tuesday, Wednesday, Thursday, Friday, Baseline: 1, Peak: 2, Duration of peak: 24 Hr 00 Min)), Advance EC2 instance (t3.micro), Pricing strategy (On-Demand), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (Ohio),EC2-2,Amazon EC2 ,0,7.343452,88.12,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Daily, (Workload days: Monday, Tuesday, Wednesday, Thursday, Friday, Baseline: 1, Peak: 2, Duration of peak: 8 Hr 30 Min)), Advance EC2 instance (t3.micro), Pricing strategy (On-Demand), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),RDS,Amazon RDS for PostgreSQL,0,206.19,2474.28,USD,,"Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB), Nodes (1), Instance Type (db.m1.medium), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Cost for one month of retention (per vCPU per month) (1.5000000000), Cost for total retention (per vCPU per month) (2.19), Cost for each additional month of retention (per vCPU per month) (0.0631000000)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
